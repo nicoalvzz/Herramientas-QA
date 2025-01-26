@@ -10,7 +10,7 @@ options = FirefoxOptions()
 
 # Inicializar el WebDriver remoto para Firefox
 driver = webdriver.Remote(
-    command_executor='http://138.199.149.0:4444/wd/hub',
+    command_executor='http://IP:4444/wd/hub',
     options=options
 )
 
